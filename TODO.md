@@ -14,6 +14,9 @@
 
 ## Low Priority / Future
 
+- [ ] **Add VSCode config stow package** — match work machine setup; check what's in `~/.config/` or `~/Library/Application Support/Code/`
+- [ ] **Add Cursor config stow package** — Cursor is installed; configs likely live in `~/Library/Application Support/Cursor/`
+- [ ] **Switch editor-opening aliases to Cursor** — aliases like `confnv`, `confzsh`, `conftmux`, etc. currently open files in nvim; redirect to `cursor` to build the habit
 - [ ] **Learn and configure `op` (1Password CLI)** — `~/.config/op/` is untracked; worth adding once familiar with the workflow
 - [ ] **Consider a `nvim` stow package or submodule** — would make `install.sh` fully self-contained
 - [ ] **Add Kitty vs Ghostty decision** — both are installed; pick a primary or document the difference in use case
