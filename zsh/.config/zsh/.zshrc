@@ -8,7 +8,7 @@
 #===============================================================================
 #                               @cfsanderson
 
-# Aliases moved to ~/.oh-my-zsh/custom/aliases.zsh and accessible with "confalias" alias.
+# Aliases
 fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
 export ZSH=$HOME/.oh-my-zsh
 export TMUX_CONF=~/.config/tmux/tmux.conf
@@ -52,6 +52,7 @@ plugins=(
 
 # source $HOME/.bash_profile
 source $ZSH/oh-my-zsh.sh
+source $HOME/.config/zsh/aliases.zsh
 
 # SSH key path
 export SSH_KEY_PATH="~/.ssh/id_rsa"

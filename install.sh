@@ -20,3 +20,6 @@ done
 
 # Install Homebrew packages
 brew bundle --file="$HOME/Brewfile"
+
+# Start MPD as a launchd service
+brew services start mpd
