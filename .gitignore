@@ -5,5 +5,12 @@ raycast/.config/raycast/config.json
 # Runtime installs (not config)
 raycast/.config/raycast/extensions/
 
+# MPD runtime files (not config)
+mpd/.config/mpd/database
+mpd/.config/mpd/log
+mpd/.config/mpd/pid
+mpd/.config/mpd/state
+mpd/.config/mpd/sticker.sql
+
 # macOS
 .DS_Store

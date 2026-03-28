@@ -9,6 +9,8 @@ brew "asdf"
 brew "bat"
 brew "btop"
 brew "cairo"
+brew "cgal"
+brew "ffmpeg"
 brew "curl"
 brew "fastfetch"
 brew "fd"
@@ -21,15 +23,18 @@ brew "glow"
 brew "hugo"
 brew "luarocks"
 brew "mas"
+brew "mpd", restart_service: :changed
 brew "neovim"
 brew "newsboat"
 brew "ninja"
-brew "python@3.13"
 brew "nmap"
 brew "pngpaste"
 brew "python@3.12"
+brew "python@3.13"
 brew "ripgrep"
+brew "rmpc"
 brew "spaceinvaders-go"
+brew "stow"
 brew "tcl-tk"
 brew "tlrc"
 brew "tmux"
@@ -56,15 +61,12 @@ cask "raycast"
 cask "vscodium"
 mas "GarageBand", id: 682658836
 mas "HP", id: 1474276998
-mas "iA Writer", id: 775737590
 mas "iMovie", id: 408981434
-mas "keymapp", id: 6472865291
 mas "Keynote", id: 409183694
 mas "Kindle", id: 302584613
 mas "Kindle Classic", id: 405399194
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "Prime Video", id: 545519333
 mas "Things", id: 904280696
 mas "Xcode", id: 497799835
 vscode "asvetliakov.vscode-neovim"
