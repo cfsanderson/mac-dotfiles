@@ -66,7 +66,7 @@ alias tsave='cd $HOME/Projects/.task/ && gst'
 
 # Configs
 alias dots='cd ~/Projects/mac-dotfiles'
-alias confalacritty='cd $HOME/.config/alacritty/ && nvim alacritty.yml'
+alias confkitty='cd $HOME/.config/kitty/ && nvim .'
 alias confalias='cd $HOME/.oh-my-zsh/custom/ && nvim aliases.zsh'
 alias conftask='cd $HOME/.config/task/ && nvim taskrc'
 alias conftmux='cd $HOME/.config/tmux/ && nvim .'
