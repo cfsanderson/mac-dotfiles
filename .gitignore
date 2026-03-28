@@ -1,0 +1,9 @@
+# Secrets / auth tokens
+gh/.config/gh/hosts.yml
+raycast/.config/raycast/config.json
+
+# Runtime installs (not config)
+raycast/.config/raycast/extensions/
+
+# macOS
+.DS_Store

@@ -1,0 +1,73 @@
+[flavor]
+dark = "gruvbox-dark"
+
+# Override gruvbox-dark colors with Gruvbox Material colors
+[mgr]
+# Use Material yellow for directories
+cwd = { fg = "#d8a657" }
+
+# Find with Material colors
+find_keyword = { fg = "#7daea3", italic = true }
+find_position = { fg = "#ea6962", bg = "reset", italic = true }
+
+# Markers with Material colors
+marker_selected = { fg = "#d4be98", bg = "#d4be98" }
+marker_copied = { fg = "#d8a657", bg = "#d8a657" }
+marker_cut = { fg = "#ea6962", bg = "#ea6962" }
+marker_marked = { fg = "#7daea3", bg = "#7daea3" }
+
+[status]
+# Progress with Material colors
+progress_label = { fg = "#d4be98", bold = true }
+progress_error = { fg = "#ea6962", bg = "#3c3836" }
+
+# Permissions with Material colors
+perm_read = { fg = "#a9b665" }
+perm_write = { fg = "#ea6962" }
+perm_exec = { fg = "#a9b665" }
+
+[pick]
+# Select with Material colors
+border = { fg = "#7daea3" }
+active = { fg = "#ea6962", bold = true }
+
+[input]
+# Input with Material colors
+border = { fg = "#7daea3" }
+
+[completion]
+# Completion with Material colors
+border = { fg = "#7daea3" }
+
+[tasks]
+# Tasks with Material colors
+border = { fg = "#7daea3" }
+
+[which]
+# Which with Material colors
+cand = { fg = "#7daea3" }
+desc = { fg = "#ea6962" }
+
+[help]
+# Help with Material colors
+on = { fg = "#ea6962" }
+run = { fg = "#7daea3" }
+
+[notify]
+# Notifications with Material colors
+title_error = { fg = "#ea6962" }
+
+[filetype]
+# File types with Material colors
+rules = [
+	# Media with Material yellow
+	{ mime = "{audio,video}/*", fg = "#d8a657" },
+
+	# Archives with Material red
+	{ mime = "application/*zip", fg = "#ea6962" },
+	{ mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", fg = "#ea6962" },
+
+	# Fallback with Material colors
+	{ name = "*", fg = "#d4be98" },
+	{ name = "*/", fg = "#d8a657" },
+]
