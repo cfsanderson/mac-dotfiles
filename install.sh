@@ -11,7 +11,7 @@ fi
 brew install stow
 
 # Stow all packages
-for dir in bat brew colors fastfetch ghostty karabiner shell tmux zsh; do
+for dir in bat brew btop colors fastfetch ghostty git karabiner raycast shell tmux vscodium yazi zsh; do
   stow -R -t "$HOME" "$dir"
 done
 
