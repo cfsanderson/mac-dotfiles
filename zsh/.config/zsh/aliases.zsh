@@ -32,6 +32,12 @@ mkdir_cd() {
 }
 alias newbrew='brew update && brew upgrade && brew cleanup'
 alias notes='cd $HOME/Projects/.notes && nvim 003_DUMP.md'
+fastfetch() {
+    local gallery=(~/.config/fastfetch/star-wars-ascii/*.txt)
+    local logo=${gallery[$RANDOM % ${#gallery[@]}]}
+    command fastfetch --file "$logo" "$@"
+}
+
 alias nv='nvim'
 alias pihole='ssh pihole'
 alias showfiles='defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder'
