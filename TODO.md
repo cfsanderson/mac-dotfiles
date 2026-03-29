@@ -19,4 +19,4 @@
 - ~~**Switch editor-opening aliases to Cursor**~~
 - [ ] **Learn and configure `op` (1Password CLI)** — `~/.config/op/` is untracked; worth adding once familiar with the workflow
 - [ ] **Consider a `nvim` stow package or submodule** — would make `install.sh` fully self-contained
-- [ ] **Add Kitty vs Ghostty decision** — both are installed; pick a primary or document the difference in use case
+- [ ] **Add Kitty vs Ghostty decision** — currently trialing Kitty; Ghostty still primary until a decision is made
