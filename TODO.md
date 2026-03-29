@@ -2,9 +2,9 @@
 
 ## High Priority
 
-- [ ] **Security review → make repo public** — currently private pending a check for any PII or tokens that shouldn't be committed
-- [ ] **Track `~/.oh-my-zsh/custom/aliases.zsh`** — this is the *active* aliases file (auto-loaded by oh-my-zsh) but it's not in the stow repo. The stowed `zsh/.config/zsh/aliases.zsh` exists but isn't sourced. Either consolidate into one file or add an `ohmyzsh` stow package.
-- [ ] **Add `brew services start mpd` to `install.sh`** — MPD won't autostart on a fresh install without this
+- [x] **Security review → make repo public**
+- [x] **Consolidate aliases into `~/.config/zsh/aliases.zsh`** — single stow-managed file, explicitly sourced from `.zshrc`; trashed `~/.oh-my-zsh/custom/aliases.zsh`
+- [x] **Add `brew services start mpd` to `install.sh`**
 
 ## Medium Priority
 
