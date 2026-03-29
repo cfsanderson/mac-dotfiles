@@ -23,3 +23,8 @@ brew bundle --file="$HOME/Brewfile"
 
 # Start MPD as a launchd service
 brew services start mpd
+
+# Clone nvim config (managed as a separate repo)
+if [ ! -d "$HOME/.config/nvim" ]; then
+  git clone git@github.com:cfsanderson/kickstart-cfs.nvim.git "$HOME/.config/nvim"
+fi

@@ -8,8 +8,8 @@
 
 ## Medium Priority
 
-- [ ] **Add nvim clone step to `install.sh`** — `~/.config/nvim/` is a [separate repo](https://github.com/cfsanderson/kickstart-cfs.nvim) and currently requires manual cloning after install
-- [ ] **Clean up `~/.config/cmus/`** — replaced by MPD + rmpc, just runtime data sitting around
+- [x] **Add nvim clone step to `install.sh`**
+- [x] **Clean up `~/.config/cmus/`** — trashed
 - [ ] **Test full fresh-install flow** — clone repo on a clean machine (or VM) and run `install.sh` end-to-end to verify everything works
 
 ## Low Priority / Future
