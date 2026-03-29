@@ -14,6 +14,7 @@ Companion to [asahi-dotfiles](https://github.com/cfsanderson/asahi-dotfiles) (Hy
 | `brew` | Brewfile for reproducible package installs |
 | `btop` | System monitor config + cfs-gruvbox-material theme |
 | `colors` | Master gruvbox-material color palette (CSS, TOML, shell, HTML) |
+| `cursor` | Cursor editor settings and keybindings |
 | `fastfetch` | System info config + 30-image Star Wars ASCII art gallery |
 | `ghostty` | Primary terminal config |
 | `git` | Global gitignore |

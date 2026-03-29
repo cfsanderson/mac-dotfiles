@@ -1,0 +1,53 @@
+{
+    "window.commandCenter": 1,
+    "editor.fontFamily": "FiraCode Nerd Font, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "vim.handleKeys": {
+        "<C-d>": true,
+        "<C-s>": false,
+        "<C-z>": false
+    },
+    "vim.useSystemClipboard": true,
+    "vim.cursorStylePerMode.insert": "line",
+    "vim.cursorStylePerMode.normal": "block",
+    "workbench.startupEditor": "none",
+    "workbench.preferredDarkColorTheme": "Gruvbox Material Dark",
+    "vim.enableNeovim": true,
+    "vim.leader": "space",
+    "vim.neovimConfigPath": "~/.config/nvim/init.lua",
+    "vim.neovimUseConfigFile": true,
+    "vim.neovimPath": "/opt/homebrew/bin/nvim",
+    "security.workspace.trust.untrustedFiles": "open",
+    "vim.cursorStylePerMode.replace": "block-outline",
+    "vim.cursorStylePerMode.visual": "block",
+    "vim.cursorStylePerMode.visualblock": "block",
+    "vim.cursorStylePerMode.visualline": "block",
+    "vim.highlightedyank.enable": true,
+    "vim.ignorecase": false,
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors": {
+        "normal": "#121212",
+        "insert": "#5f0000",
+        "visual": "#5f5f00",
+        "visualline": "#5f5f00",
+        "visualblock": "#5f5f00",
+        "replace": "#00008b"
+    },
+    "vim.visualstar": true,
+    "vim.hlsearch": true,
+    "editor.lineNumbers": "relative",
+    "vim.smartRelativeLine": true,
+    "gruvboxMaterial.darkContrast": "hard",
+    "gruvboxMaterial.italicKeywords": true,
+    "workbench.colorTheme": "Gruvbox Material Dark",
+    "vim.highlightedyank.color": "rgba(250, 240, 170, 0.3)",
+    "vim.searchHighlightColor": "rgba(250, 240, 170, 0.3)",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#121212",
+        "statusBar.noFolderBackground": "#121212",
+        "statusBar.debuggingBackground": "#121212",
+        "statusBar.foreground": "#ffffff",
+        "statusBar.debuggingForeground": "#ffffff"
+    },
+    "git.autofetch": true
+}
