@@ -36,14 +36,13 @@ fastfetch() {
     command fastfetch --file "$logo" "$@"
 }
 alias nv='nvim'
-alias pihole='ssh pihole'
 alias protondrive='cd /Users/caleb/Library/CloudStorage/ProtonDrive-me@calebsanderson.com'
-alias arch='ssh caleb@192.168.1.179'
+alias sb='cd $HOME/Projects/second-brain/'
+alias sbo='cd $HOME/Projects/second-brain/ && nv .'
 alias showfiles='defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder'
 alias showpaths='defaults write com.apple.finder _FXShowPosixPathInTitle -bool true; killall Finder'
 alias sourz='source $HOME/.config/zsh/.zshrc'
 alias st='speedtest'
-alias stravapi='ssh caleb@192.168.1.192'
 alias to=touch_open
 touch_open() {
 	if ! [ "$1" ]; then
@@ -58,8 +57,14 @@ alias y='yazi'
 alias yt='yt-dlp'
 alias ytm='yt-dlp --extract-audio --audio-format mp3 --audio-quality 0'
 
+# SSH
+alias pi_hole='ssh pihole'
+alias pi_strava='ssh caleb@192.168.1.192'
+alias pi_famserver='ssh caleb@192.168.1.'
+alias arch='ssh caleb@192.168.1.179'
+
 # Configs
-alias dots='cd ~/Projects/mac-dotfiles'
+alias dots='cd $HOME/Projects/mac-dotfiles'
 alias confalias='cd $HOME/.config/zsh/ && nvim aliases.zsh'
 alias confghostty='cd $HOME/.config/ghostty/ && nvim .'
 alias confkitty='cd $HOME/.config/kitty/ && nvim .'
