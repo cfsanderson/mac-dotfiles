@@ -49,5 +49,6 @@
         "statusBar.foreground": "#ffffff",
         "statusBar.debuggingForeground": "#ffffff"
     },
-    "git.autofetch": true
+    "git.autofetch": true,
+    "editor.accessibilitySupport": "off"
 }
