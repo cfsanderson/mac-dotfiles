@@ -37,6 +37,7 @@ fastfetch() {
 }
 alias nv='nvim'
 alias protondrive='cd /Users/caleb/Library/CloudStorage/ProtonDrive-me@calebsanderson.com'
+alias rezsh='exec zsh'
 alias sb='cd $HOME/Projects/second-brain/'
 alias sbo='cd $HOME/Projects/second-brain/ && nv .'
 alias showfiles='defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder'

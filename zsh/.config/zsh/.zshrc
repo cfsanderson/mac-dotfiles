@@ -72,6 +72,8 @@ fastfetch
 # FZF
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# . $HOME/.asdf/asdf.sh
+# asdf 0.19+ no longer uses asdf.sh; just needs shims on PATH
+export PATH="$HOME/.asdf/shims:/opt/homebrew/bin:$PATH"
 
-export PATH="/opt/homebrew/bin:$PATH"
+# Created by `pipx` on 2026-04-30 04:37:34
+export PATH="$PATH:/Users/caleb/.local/bin"
