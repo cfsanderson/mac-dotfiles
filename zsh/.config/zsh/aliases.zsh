@@ -30,11 +30,11 @@ mkdir_cd() {
 }
 alias music='rmpc; rmpc stop'
 alias notes='cd $HOME/Projects/.notes && gl && code .'
-fastfetch() {
-    local gallery=(~/.config/fastfetch/star-wars-ascii/*.txt)
-    local logo=${gallery[$RANDOM % ${#gallery[@]}]}
-    command fastfetch --file "$logo" "$@"
-}
+# fastfetch() {
+#     local gallery=(~/.config/fastfetch/star-wars-ascii/*.txt)
+#     local logo=${gallery[$RANDOM % ${#gallery[@]}]}
+#     command fastfetch --file "$logo" "$@"
+# }
 alias nv='nvim'
 alias protondrive='cd /Users/caleb/Library/CloudStorage/ProtonDrive-me@calebsanderson.com'
 alias rezsh='exec zsh'
