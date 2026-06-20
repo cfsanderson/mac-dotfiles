@@ -50,5 +50,6 @@
         "statusBar.debuggingForeground": "#ffffff"
     },
     "git.autofetch": true,
-    "editor.accessibilitySupport": "off"
+    "editor.accessibilitySupport": "off",
+    "window.autoDetectColorScheme": false
 }
