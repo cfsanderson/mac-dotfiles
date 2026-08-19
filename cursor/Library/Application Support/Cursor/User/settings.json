@@ -7,7 +7,7 @@
         "<C-s>": false,
         "<C-z>": false
     },
-    "vim.useSystemClipboard": true,
+    "vim.useSystemClipboard": false,
     "vim.cursorStylePerMode.insert": "line",
     "vim.cursorStylePerMode.normal": "block",
     "workbench.startupEditor": "none",
