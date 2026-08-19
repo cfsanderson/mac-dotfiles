@@ -10,6 +10,7 @@
 
 # General
 alias bbd='brew bundle dump -f'
+alias bcp='python3 "$HOME/Projects/second-brain/1. Projects/2026_BCP/_scripts/daily_office.py"'
 alias brewup='brew update && brew upgrade && brew cleanup'
 alias brew='env PATH="${PATH//.asdf/shims:/}" brew'
 alias code='codium'
