@@ -2,6 +2,14 @@
 gh/.config/gh/hosts.yml
 raycast/.config/raycast/config.json
 
+# Per-machine local overrides (see zsh/.config/zsh/.zshrc)
+zsh/.config/zsh/.env.local
+
+# zsh runtime/cache files (not config)
+zsh/.config/zsh/.zcompdump*
+zsh/.config/zsh/.zsh_history
+zsh/.config/zsh/.zsh_sessions/
+
 # Runtime installs (not config)
 raycast/.config/raycast/extensions/
 

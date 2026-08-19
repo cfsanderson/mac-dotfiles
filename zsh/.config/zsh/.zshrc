@@ -77,3 +77,10 @@ export PATH="$HOME/bin:$HOME/.asdf/shims:/opt/homebrew/bin:$PATH"
 
 # Created by `pipx` on 2026-04-30 04:37:34
 export PATH="$PATH:/Users/caleb/.local/bin"
+
+# Host-specific overrides (tracked; see zsh/.config/zsh/hosts/)
+# Keyed on LocalHostName (System Settings > General > Sharing) rather than
+# `hostname`, since the kernel hostname doesn't update until reboot.
+_host_zsh="$HOME/.config/zsh/hosts/$(scutil --get LocalHostName).zsh"
+[ -f "$_host_zsh" ] && source "$_host_zsh"
+unset _host_zsh
