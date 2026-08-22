@@ -64,6 +64,7 @@ alias pi_hole='ssh pihole'
 alias pi_strava='ssh caleb@192.168.1.192'
 alias pi_famserver='ssh caleb@192.168.1.'
 alias arch='ssh caleb@192.168.1.179'
+alias macmini='ssh caleb@mac-mini.local'
 
 # Configs
 alias dots='cd $HOME/Projects/mac-dotfiles'
