@@ -58,13 +58,16 @@ alias weather="curl 'v2d.wttr.in/Bradenton?u'"
 alias y='yazi'
 alias yt='yt-dlp'
 alias ytm='yt-dlp --extract-audio --audio-format mp3 --audio-quality 0'
+alias yttubi='yt-dlp -f "bv*+ba/b" --merge-output-format mkv -o "%(title)s.%(ext)s"'
 
 # SSH
 alias pi_hole='ssh pihole'
-alias pi_strava='ssh caleb@192.168.1.192'
 alias pi_famserver='ssh caleb@192.168.1.'
-alias arch='ssh caleb@192.168.1.179'
-alias macmini='ssh caleb@mac-mini.local'
+alias macwork='ssh macwork'
+alias ssh_omarchy='ssh omarchy'
+alias ssh_asahi-mini='ssh asahi-mini'
+alias ssh_stravapi='ssh stravapi'
+alias ssh_work-mbp='ssh work-mbp'
 
 # Configs
 alias dots='cd $HOME/Projects/mac-dotfiles'
