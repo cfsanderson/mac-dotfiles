@@ -13,6 +13,10 @@ zsh/.config/zsh/.zsh_sessions/
 # Runtime installs (not config)
 raycast/.config/raycast/extensions/
 
+# catppuccin/tmux is manually cloned, not TPM-managed or vendored (see
+# bootstrap/catppuccin-tmux.md)
+tmux/.config/tmux/plugins/
+
 # MPD runtime files (not config)
 mpd/.config/mpd/database
 mpd/.config/mpd/log
