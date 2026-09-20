@@ -29,7 +29,7 @@ autoload -U edit-command-line
 zle -N edit-command-line
 bindkey -M vicmd v edit-command-line
 
-ZSH_THEME="agnoster"
+ZSH_THEME=""
 
 HIST_STAMPS="yyyy-mm-dd"
 HISTSIZE=10000
@@ -65,10 +65,6 @@ function y() {
 	rm -f -- "$tmp"
 }
 
-# Neofetch ascii art
-# neofetch --ascii $HOME/.config/neofetch/millenium-falcon.txt
-fastfetch
-
 # FZF
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
@@ -78,9 +74,16 @@ export PATH="$HOME/bin:$HOME/.asdf/shims:/opt/homebrew/bin:/opt/homebrew/sbin:$P
 # Created by `pipx` on 2026-04-30 04:37:34
 export PATH="$PATH:/Users/caleb/.local/bin"
 
+# Neofetch ascii art
+# neofetch --ascii $HOME/.config/neofetch/millenium-falcon.txt
+fastfetch
+
 # Host-specific overrides (tracked; see zsh/.config/zsh/hosts/)
 # Keyed on LocalHostName (System Settings > General > Sharing) rather than
 # `hostname`, since the kernel hostname doesn't update until reboot.
 _host_zsh="$HOME/.config/zsh/hosts/$(scutil --get LocalHostName).zsh"
 [ -f "$_host_zsh" ] && source "$_host_zsh"
 unset _host_zsh
+
+# Starship prompt
+eval "$(starship init zsh)"

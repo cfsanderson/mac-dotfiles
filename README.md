@@ -24,6 +24,7 @@ Companion to [asahi-dotfiles](https://github.com/cfsanderson/asahi-dotfiles) (Hy
 | `raycast` | Custom Raycast scripts |
 | `rmpc` | TUI MPD client config + gruvbox-material theme |
 | `shell` | `.zshenv`, `.zprofile`, `.tool-versions`, `.hushlogin` |
+| `starship` | Prompt config + cfs-gruvbox-material theme |
 | `tmux` | Tmux config |
 | `vscodium` | VSCodium profile |
 | `yazi` | File manager config + gruvbox-dark flavor |
