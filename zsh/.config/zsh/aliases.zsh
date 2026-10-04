@@ -56,6 +56,8 @@ touch_open() {
 alias tp='trash-put'
 alias weather="curl 'v2d.wttr.in/Bradenton?u'"
 alias y='yazi'
+alias vol_up="osascript -e 'set volume output volume (output volume of (get volume settings) + 6)'"
+alias vol_down="osascript -e 'set volume output volume (output volume of (get volume settings) - 6)'"
 alias yt='yt-dlp'
 alias ytm='yt-dlp --extract-audio --audio-format mp3 --audio-quality 0'
 alias yttubi='yt-dlp -f "bv*+ba/b" --merge-output-format mkv -o "%(title)s.%(ext)s"'
